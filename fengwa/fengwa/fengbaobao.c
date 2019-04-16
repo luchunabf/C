@@ -24,7 +24,7 @@ int main()
 		if (j>i/2)
  		{
 			printf("%d ", i);
-			printf("I love phoner\n");
+			printf("I love phoner forever\n");
 			count++;
  		}
  	}
