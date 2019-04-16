@@ -23,7 +23,7 @@ int main()
  		}
 		if (j>i/2)
  		{
-			printf("%d ", i);
+			printf("%d\n", i);
 			printf("I love phoner forever\n");
 			count++;
  		}
