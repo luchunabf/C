@@ -11,9 +11,9 @@ int main()
 	int ret = ((a + b) >> 1);
 	for (int i = 0; i < ret; i++)
 	{
-		Sleep(500);
+		Sleep(50);
 		printf("%d\n", i);
-		printf("I Love Phoner\n");
+		printf("I Love Phoner forever\n");
 	}
 	system("pause");
 	return 0;
