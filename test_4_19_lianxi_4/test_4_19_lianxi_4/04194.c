@@ -23,9 +23,10 @@ int main()
 
 	*p = 20;
 	printf("%d\n", a);
-	printf("%p\n", p);
+	printf("%p\n", &a);
 	printf("%d\n", *p);
-
+    printf("%p\n", p);
+	printf("%p\n", &p);
 	system("pause");
 	return 0;
 }
