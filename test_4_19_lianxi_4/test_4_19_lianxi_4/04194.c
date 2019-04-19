@@ -23,6 +23,9 @@ int main()
 
 	*p = 20;
 	printf("%d\n", a);
+	printf("%p\n", p);
+	printf("%d\n", *p);
+
 	system("pause");
 	return 0;
 }
