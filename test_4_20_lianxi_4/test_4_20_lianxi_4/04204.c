@@ -20,7 +20,7 @@ void print_arr2(int(*arr)[5], int row, int col)
 	{
 		for (int j = 0; j < col; j++)
 		{
-			printf("%d ", (*arr+i)[j]);
+			printf("%d ", (*(arr + i))[j]);// »òÕßprintf("%d ", arr[i][j]);
 		}
 		printf("\n");
 	}
