@@ -12,7 +12,7 @@ int my_strlen1(char* str)//常规法：地址
 	}
 	return count;
 }
-
+//递归法
 int my_strlen2(char* str)//递归法
 {
 	if (*str == '\0')
@@ -20,7 +20,7 @@ int my_strlen2(char* str)//递归法
 	else
 		return 1 + my_strlen2(str + 1);
 }
-
+//地址-地址法
 int my_strlen3(char* str)//地址-地址法
 {
 	char* p = str;//将首元素的地址赋给p
