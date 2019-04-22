@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
+//计数器法
 int my_strlen1(char* str)//常规法：地址
 {
 	int count = 0;
