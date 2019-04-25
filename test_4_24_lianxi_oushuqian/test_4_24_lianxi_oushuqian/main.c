@@ -30,6 +30,8 @@ int main()
 	}
 	for (int i = 0; i < sz; i++)
 	{
+		
+		printf("%d--", (i + 1));
 		printf("%d ", arr[i]);
 	}
 	printf("\n");
