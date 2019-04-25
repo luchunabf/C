@@ -9,17 +9,23 @@ int main()
 	int end = sz - 1;
 	while (start < end)
 	{
-		while ((start < end)&&(arr[start] % 2 != 0))
+		while ((start < end) && (arr[start] % 2 != 0))//从前往后去寻找第一个偶数
 		{
 			start++;
 		}
-		while ((start < end)&&(arr[end] % 2 == 0))
+		while ((start < end) && (arr[end] % 2 == 0))//从后往前去寻找第一个奇数
 		{
 			end--;
 		}
-		int tmp = arr[start];
+		/*int tmp = arr[start];
 		arr[start] = arr[end];
-		arr[end] = tmp;
+		arr[end] = tmp;*/
+		if (start < end)
+		{
+			arr[start] = arr[start] ^ arr[end];
+			arr[end] = arr[start] ^ arr[end];
+			arr[start] = arr[start] ^ arr[end];
+		}
 
 	}
 	for (int i = 0; i < sz; i++)
