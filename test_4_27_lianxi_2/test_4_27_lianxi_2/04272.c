@@ -9,7 +9,7 @@ struct Test
 	char cha[2];
 	short sBa[4];
 }*p;
-//假设p 的值为0x0000000.
+//假设p 的值为0x00000000.
 int main()
 {
 	printf("%p\n", p + 0x1);//0x00000014      结构体的大小是20个字节
