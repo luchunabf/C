@@ -1,14 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
-int main()
+//int main()
+//{
+//	char a[] = "work";
+//	char *p = a;
+//	p++;
+//	printf("%c\n", *p);//////////char类型 不能往后走找'\0'
+//	system("pause");
+//	return 0;
+//}
+//int main()
 {
-	//char a[] =  "work" ;
-	//char *p = a;
-	//p++;
-	//printf("%c\n", *p);//////////char类型 不能往后走找'\0'
-	//system("pause");
-	//return 0;
+	
 
 	char *a[] = { "work","at","alibaba"};//char* a[]是一个一级字符指针数组，每个数组存放的指针，指针则代表首元素（首个字符）的地址
 	////是一个有三个元素的数组，数组元素中存放的是三个指针，每个指针指向数组首元素的地址
