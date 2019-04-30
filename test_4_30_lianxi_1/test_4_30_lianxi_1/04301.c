@@ -7,7 +7,7 @@
 //{
 //	char a[] = { 1, 2, 3 };
 //	char* p = a;
-//	printf("%d\n", *p++);//2改为1   先*p后++ 特别注意：后置++，先使用后++，也就是输出的是*p，而不是*p++ 
+//	printf("%d\n", *p++);//2改为1   先*p后++ 特别注意：后置++，先使用后++，也就是输出的是*p，而不是*p++ （就是说先别管++，执行完这一行的其他所有语句之后再无条件执行++）
 //	printf("%d\n", *++p);//3
 //	printf("%d\n", *p);//3
 //	printf("%d\n", p[1]);//越界
@@ -125,7 +125,7 @@
 //		src++;
 //		dst++;
 //	}
-//	*dst = *src;
+//	*dst = *src;//当走到最后'\0'的时候，再把'\0'赋值过去
 //	return ret;
 //}
 //char* my_strcpy2(char* dst, const char* src)
@@ -216,17 +216,10 @@ int my_strcmp(const char* str1, const char* str2)
 	}//有一个默认条件：*str1和*str2至少有一个为'\0';故在后面判断谁不等于'\0'.判断等于'\0'会分多种情况，复杂化
 	if (*str1 != '\0')
 		return 1;
-	else if (*str2 != '\0')
+	else if (*str2 != '\0')//可以写else的时候一定要写else
 		return -1;
 	else
 		return 0;
-	/*if (*str1 != '\0')
-		return 1;
-	if (*str2 != '\0')
-		return -1;
-	if (*str1 == *str2)
-		return 0;*/
-
 }
 int main()
 {
