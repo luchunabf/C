@@ -13,7 +13,7 @@ int cmp2(const void* a, const void* b)
 }
 int cmp3(const void** a, const void** b)
 {
-	return (*(char**) a - *(char**) b);//×Ö·û´®
+	return (*(char**) a - *(char**) b);//×Ö·û´® return strcmp(²ÎÊý)
 }
 int cmp4(const void* a, const void* b)
 {
