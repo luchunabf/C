@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+//模仿qsort的功能实现一个通用的冒泡排序
 int cmp1(const void* a, const void* b)
 {
 	return (*(int*)a - *(int*)b);
