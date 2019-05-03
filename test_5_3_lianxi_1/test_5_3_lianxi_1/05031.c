@@ -33,7 +33,7 @@ void operation()
 	printf("*************************\n");
 	printf("\n");
 }
-int(*oper_func[])(int, int) = { NULL, my_add, my_sub, my_mul, my_div };
+int(*oper_func[])(int, int) = { NULL, my_add, my_sub, my_mul, my_div };//数组，按照0,1,2,3,4的顺序，即a[0] = NULL（首元素）
 
 int main()
 {
