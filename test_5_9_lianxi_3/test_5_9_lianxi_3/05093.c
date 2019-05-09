@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+check_sys()
+{
+	union Un
+	{
+		int i;
+		char c;
+	}un;
+	un.i = 1;
+	return un.c;
+	
+}
+int main()
+{
+	int ret = check_sys();
+	if (ret == 1)
+		printf("Ð¡¶Ë\n");
+	else
+		printf("´ó¶Ë\n");
+	system("pause");
+	return 0;
+}
