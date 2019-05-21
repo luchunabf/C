@@ -247,11 +247,16 @@ void DListRemove(PDList s, DLDataType data)
 		//情况2 链表有效节点个数大于1
 	{
 		//PDNode pcur = s->_pHead->_pNext;
-		while (pcur != s->_pHead)
+		/*while (pcur != s->_pHead)//第一次大脑短路写错了
 		{
 			PDNode pData = DListFind(s, data);
 			DListErase(pData);
 			pcur = pcur->_pNext;
+		}*/
+		while (DListFind(s, data))//调用函数需要清除函数运行，才能判断循环结束条件
+		{
+			PDNode pData = DListFind(s, data);
+			DListErase(pData);
 		}
 	}
 }
@@ -289,7 +294,7 @@ void TestDList()
 	DListPrint(&s);
 
 	DListRemove(&s, 4);
-	//DListRemove(&s, 1);//有问题
+	DListRemove(&s, 1);
 	DListPrint(&s);
 
 	DListClear(&s);
