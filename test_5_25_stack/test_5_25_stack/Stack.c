@@ -53,7 +53,7 @@ void StackPop(Stack* ps)
 		return;
 	ps->_size--;//怎么有点儿奇怪？也不用释放？只需要size--就ok？是的
 }
-SDataType StackTop(Stack* ps)
+SDataType StackTop(Stack* ps)//栈顶top 其实就是size（size是有效元素个数）只不过在栈的数组中下标是size-1
 {
 	assert(ps);
 	return ps->_array[ps->_size - 1];
