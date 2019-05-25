@@ -6,7 +6,7 @@
 void SeqListInit(PSeq ps, int capacity)
 {
 	assert(ps);
-	ps->_array = (DataType*)malloc(sizeof(DataType)* capacity);
+	ps->_array = (DataType*)malloc(sizeof(DataType)* capacity);//初始化也要开辟新空间，开始给定一个最初开辟空间的大小capacity的值
 	if (NULL == ps->_array)
 	{
 		assert(0);
@@ -179,7 +179,7 @@ void SeqListRemove(PSeq ps, DataType data)
 void SeqListDestroy(PSeq ps)
 {
 	assert(ps);
-	if (ps->_array)
+	if (ps->_array)//销毁需要判断顺表表中的数组是否为空，不为空销毁
 	{
 		free(ps->_array);
 		ps->_array = NULL;
@@ -194,7 +194,7 @@ void CheckCapacity(PSeq ps)
 	assert(ps);
 	if (ps->_capacity == ps->_size)
 	{
-		DataType* pTmp = (DataType*)malloc(sizeof(DataType)*(ps->_capacity * 2));
+		DataType* pTmp = (DataType*)malloc(sizeof(DataType)*(ps->_capacity * 2));//顺序表开辟的空间类型为DataType*（重要）
 		if (NULL == pTmp)
 		{
 			assert(0);
