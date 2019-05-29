@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include"Heap1.h"
-//建大堆/小堆
+//建大堆/小堆（含有比较函数指针）
 void Swap(HPDataType* pleft, HPDataType* pright)
 {
 	HPDataType tmp = *pleft;
