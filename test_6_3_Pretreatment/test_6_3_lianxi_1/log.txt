@@ -1,0 +1,10 @@
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 0
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 1
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 2
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 3
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 4
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 5
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 6
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 7
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 8
+FILE:d:\比特软件\vs2013\我的代码\lc\test_6_3_lianxi_1\test_6_3_lianxi_1\test.c LINE:16 DATE:Jun  3 2019 TIME:11:24:24 i = 9
