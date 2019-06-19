@@ -21,7 +21,7 @@ char* my_strcat(char* dest, const char* src)
 	char* ret = dest;
 	while (*dest)
 	{
-		*dest++;
+		dest++;
 	}
 	while (*dest++ = *src++);
 
